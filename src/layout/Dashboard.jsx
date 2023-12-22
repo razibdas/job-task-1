@@ -9,7 +9,7 @@ const Dashboard = () => {
 
   return (
     <div className="flex">
-      <div className="w-64 min-h-screen bg-blue-500 text-white">
+      <div className="w-64 min-h-screen bg-blue-500 pl-4 text-white">
         <ul className="menu p-4">
           <h2>Hi</h2>
         </ul>
