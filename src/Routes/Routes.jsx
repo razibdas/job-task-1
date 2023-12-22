@@ -6,7 +6,9 @@ import Main from "../layout/Main";
 import Home from "../Home/Home/Home/Home";
 import Login from "../Home/Home/Login/Login";
 import SignUp from "../Home/SignUp/SignUp";
-import Dashboard from "../layout/Dashboard";
+import Dashboard from "../layout/Dash";
+import ManageTask from "../pages/Dashboard/ManageTask/ManageTask";
+
 
 
 export const router = createBrowserRouter([
@@ -25,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: 'signup',
         element: <SignUp></SignUp>
+      },
+      {
+        path: 'manageTask',
+        element: <ManageTask></ManageTask>
       }
     ]
   },

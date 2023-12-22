@@ -17,8 +17,8 @@ const Navbar = () => {
 
     const navOpitons = <div className="flex items-center">
         <li><Link to="/" className="">Home</Link></li>
-        <li><Link to="/trends" className="">Create Tasks</Link></li>
-        <li><Link to="/trending" className="">Manage Tasks</Link></li>
+        <li><Link to="/" className="">Create Tasks</Link></li>
+        <li><Link to="/manageTask" className="">Manage Tasks</Link></li>
         {/* <li><Link to="/addProduct">Add Products</Link></li> */}
         {/* <li>
             <Link to="/dashboard/cart">
